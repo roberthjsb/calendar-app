@@ -22,7 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --watchAll",
+    "test:dev": "react-scripts test --watchAll",
+    "test": "react-script test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
