@@ -3,7 +3,7 @@ const initialState = {
     isOpenModal: false
 }
 
-export const uiReducer = (state = initialState, { type, payload }) => {
+export const uiReducer = (state = initialState, { type }) => {
     switch (type) {
 
     case types.uiOpenModal:
